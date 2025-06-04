@@ -34,7 +34,7 @@ class Hockey(Results):
         print(f"Хоккейных поражений: {self.losses}")
 
     def total_points(self):
-        print(f"Общее количество очков: {3*self.victories + self.draws}")
+        print(f"Общее количество очков: {2*self.victories + self.draws}")
 
 
 football_team = Football(2, 2, 2)
@@ -51,3 +51,6 @@ for team in (football_team, hockey_team):
         team.number_of_losses()
     else:
         team.total_points()
+
+
+
